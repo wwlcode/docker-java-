@@ -3,6 +3,7 @@ MAINTAINER kfcoding-wwl
 
 ADD jdk-8u181-linux-x64.tar.gz /usr/local/
 ADD apache-tomcat-9.0.10.tar.gz /usr/local/
+ADD HelloWorld.java /HelloWorld.java
 ADD run.sh /run.sh
 
 ENV JAVA_HOME /usr/local/jdk1.8.0_181

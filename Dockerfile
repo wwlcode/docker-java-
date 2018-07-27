@@ -1,12 +1,12 @@
 FROM ubuntu:16.04
 MAINTAINER kfcoding-wwl
 
-ADD jdk-8u181-linux-x64.tar.gz /usr/local/
+ADD jdk-linux-x64.tar.gz /usr/local/
 ADD apache-tomcat-9.0.10.tar.gz /usr/local/
 ADD HelloWorld.java /HelloWorld.java
 ADD run.sh /run.sh
 
-ENV JAVA_HOME /usr/local/jdk1.8.0_181
+ENV JAVA_HOME /usr/local/jdk1.8.0_131
 ENV CLASSPATH $JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
 ENV CATALINA_HOME /usr/local/apache-tomcat-9.0.10
 ENV CATALINA_BASE /usr/local/apache-tomcat-9.0.10

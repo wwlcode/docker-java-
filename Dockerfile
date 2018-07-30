@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM daocloud.io/shaoling/workspace-env-base:latest
 MAINTAINER kfcoding-wwl
 
 ADD jdk-linux-x64.tar.gz /usr/local/

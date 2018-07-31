@@ -15,7 +15,7 @@
 ## 2.java镜像生成并测试
 
 >>1.首先使用docker build --tag 命令创建标签.<br>
-![Ubuntu执行图](https://github.com/wwlcode/photo/blob/master/1.png)
+![Ubuntu执行图](https://github.com/wwlcode/photo/blob/master/1.png)<br>
 >>2.使用docker run --name javatest -d -p 80:80 -v /root/data:/data java:9.9 将镜像运行为一个名为javatest且80端口与主机80端口相连,/data目录与主机/root/data目录共享的容器,并用docker ps 查看正在运行的容器情况<br>
 ![Ubuntu执行图](https://github.com/wwlcode/photo/blob/master/2.png)<br>
 >>3.使用docker exec命令连接容器<br>

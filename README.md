@@ -2,7 +2,7 @@
 ## 1.旧版Dockfile说明(使用ADD方式添加jdk安装包版本preDockerfile)
 >>Dockerfile使用的基础镜像为公司提供的基础镜像。<br>
 >>java环境的安装方法是在Dockfile路径下中添加事先准备好的jdk、Tomcat安装包、自己编写的启动脚本、以及进入容器运行的示例程序:<br>
->>>jdk-linux-x64.tar.gz(jdk安装包,超过100M,使用git lfs上传,不是测试所用的jdk版本)<br>
+>>>jdk-linux-x64.tar.gz(jdk安装包,超过100M,使用git lfs上传,不是测试所用的jdk版本,且在DaoCloud中构建镜像时无法识别为gzip文件)<br>
 >>>.gitattributes(git lfs 相关文件)<br>
 >>>apache-tomcat-9.0.10.tar.gz(Tomcat安装包)<br>
 >>>HelloWorld.java(示例程序)<br>
